@@ -1,0 +1,454 @@
+/*
+Global
+-------------------------------------------------- */
+body { background: #fff; }
+
+
+/*
+Buttons
+--------------------------- */
+a.button.std:hover, a.button.std[disabled]:hover:hover, button.std:hover, button.std[disabled]:hover:hover, input[type=submit].std:hover, input[type=submit].std[disabled]:hover:hover {
+  background-color: #397FFB;
+  border: 1px solid #3067CA;
+}
+
+.state.button.start, a.state.button.start {
+ background-color: transparent;
+  border: 1px solid #397FFB;
+  color: #397FFB;
+}
+
+/*
+Lightbox
+--------------------------- */
+.lightbox.keyboard_shortcuts .title, .lightbox .lightbox.owner .title, .lightbox.move_to_project .title, .lightbox.project_color .title, .lightbox.save_search .title, .lightbox.story_density_mode .title, .lightbox.velocity_update .title, .notifications.menu .dd_menu .title, .projects.lightbox .title, .search_bar_container.next.menu .dd_menu .title, .tn_add_remove_labels_lightbox .title {
+  background-color: #397FFB;
+}
+
+.lightbox.provide_feedback h2 {
+  background-color: #397FFB;
+}
+
+.lightbox.feedback .thanks .lightbox.provide_feedback .close, .lightbox.feedback form.feedback .lightbox.provide_feedback .save, .lightbox.provide_feedback .thanks .close, .lightbox.provide_feedback form.feedback .save {
+  background-color: #397FFB;
+  border: none;
+  border-radius: 2px;
+}
+
+.lightbox.feedback .thanks .lightbox.provide_feedback .close:hover, .lightbox.feedback form.feedback .lightbox.provide_feedback .save:hover, .lightbox.provide_feedback .thanks .close:hover, .lightbox.provide_feedback form.feedback .save:hover {
+  background-color: #3067CA;
+}
+
+.lightbox.provide_feedback p a.useful-link {
+  color: #397FFB;
+}
+
+
+/*
+Sign Up
+-------------------------------------------------- */
+
+.app_signup_signup_sheet_signin_link { color: #397FFB; }
+
+a.forgot_password { color: #397FFB ; }
+
+.app_signup_signup_sheet_signin_link:hover { color: #3067CA; }
+
+.signin .app_signup_signup_sheet_media_container {
+  padding-bottom: 30px;
+  background-color: #F6F8F9;
+}
+
+.app_signup_submit_button_button {
+  border-radius: 4px;
+  background-color: #397FFB;
+}
+
+.app_signup_submit_button_button:hover { background-color: #3067CA; }
+
+
+
+/*
+Intro Tour
+-------------------------------------------------- */
+
+.tn_intro_tour_content_next, .tn_intro_tour_content_prev, .tn_intro_tour_content_start {
+  background-color: #397FFB;
+}
+
+.tn_intro_tour_content_next:hover, .tn_intro_tour_content_prev:hover, .tn_intro_tour_content_start:hover {
+ background-color: #3067CA;
+}
+
+.tn_intro_tour_content_exit { color: #397FFB; }
+
+.tn_intro_tour_header {
+ background-color: #EF7F48;
+}
+
+.tn_intro_tour_arrow_left:before {
+  border-color: transparent #EF7F48 transparent transparent;
+}
+
+.tn_intro_tour_arrow_right:before {
+     border-color: transparent transparent transparent #EF7F48;
+}
+
+.tn_intro_tour_arrow_up:before, .tn_intro_tour_arrow_up_left:before {
+  border-color: transparent transparent #EF7F48;
+}
+
+
+/*
+Page Header
+-------------------------------------------------- */
+
+.tc_page_header { background-color: #3E82F7; }
+
+.tc_page_header .notifications .bell:before { opacity: 1; }
+
+.tc_page_header .notifications .bell:hover:before { opacity: .7 }
+
+.search_bar {
+  /* background-color: hsla(0,0%,0%,0.2); */
+  background-color: #fff;
+}
+
+.tc_page_header .notifications .counter.unread {
+  background-color: #EF7F48;
+}
+
+.tc_menu_header {
+  background-color: #626979;
+}
+
+.tc_projects_menu_arrow:before {
+ border-color: transparent transparent #626979 transparent;
+}
+
+.tc_menu .tc_projects_menu_callout a {
+  color: #397FFB;
+}
+
+.tc_projects_menu_footer {
+  color: #397FFB;
+}
+
+
+
+/*
+Main Section
+-------------------------------------------------- */
+section.main { background-color: #F6F8F9;}
+
+
+
+/*
+Sidebar
+--------------------------- */
+aside.sidebar {
+  background-color: #F6F8F9;
+  border-right: 1px solid hsla(0,0%,0%,0.2);
+}
+
+aside.sidebar .sidebar_header {
+  background-color: transparent;
+  border-bottom: 1px solid hsla(0,0%,0%,0.2);
+  border-top: none;
+}
+
+aside.sidebar section.project .actions {
+  background-color: transparent;
+  border-bottom: hsla(0,0%,0%,0.2);
+}
+
+aside.sidebar .settings_area { background: hsla(0,0%,0%,0.1); }
+
+aside.sidebar .count, aside.sidebar .members, aside.sidebar .projects .readonly, aside.sidebar .velocity { color: #2C2D2F; }
+
+aside.sidebar .count:hover, aside.sidebar .members:hover, aside.sidebar .projects .readonly:hover, aside.sidebar .velocity:hover { color: #397FFB; }
+
+aside.sidebar .settings_area .control { border-left: 1px solid rgba(0,0,0,0.2); }
+
+aside.sidebar .settings_area .control .anchor { border-left: none; }
+
+aside.sidebar .story_density_mode .anchor:before {
+  background: url('http://cdn.flaticon.com/png/64/60/60725.png') top center no-repeat;
+  background-size: 13px 13px;
+}
+
+aside.sidebar .add_story {
+  background: transparent;
+  border-top: 1px solid hsla(0,0%,0%,0.2);
+  border-bottom: 1px solid hsla(0,0%,0%,0.2);
+}
+
+aside.sidebar .add_story span { background-color: #397FFB; }
+
+aside.sidebar .add_story:hover span { background-color: #3067CA; }
+
+aside.sidebar .panels { padding-top: 10px; }
+
+.main.project aside.sidebar .project .has_epics .item.labels, .main.project aside.sidebar .project .has_searches .item.searches, .main.project aside.sidebar .project .item.all_my_work+.item, .main.project aside.sidebar .project .item.charts, .main.project aside.sidebar .project .item.epics, .main.project aside.sidebar .project .item.integration, .main.project aside.sidebar .project .item.reportalytics {
+  border-top: 1px solid hsla(0,0%,0%,0.2);
+}
+
+aside.sidebar input[type=checkbox]+label { color: #666666; }
+
+aside.sidebar input[type=checkbox]:checked+label { color: #397FFB; }
+
+aside.sidebar form.panels .item:before {
+ -webkit-filter: hue-rotate(31deg) saturate(11);
+  opacity: 1;
+}
+
+
+
+
+/*
+Panels
+-------------------------------------------------- */
+
+.panel {
+  background-color: #fff;
+}
+
+.panel .container {
+  border-left: 1px solid hsla(0,0%,0%,0.2);
+  border-right: 1px solid hsla(0,0%,0%,0.2);
+  background-color: transparent;
+}
+
+.panel .panel_header {
+  background-color: #DEE0E1;
+  border-top-color: #DEE0E1;
+  border-bottom-color: #DEE0E1;
+}
+
+.panel_header_container {
+ z-index: 1;
+ border-bottom: 1px solid rgba(0,0,0,0.15);
+}
+
+.panel .panel_header .close:before, .panel .workspace_header .close:before {
+  background-image: url(http://cdn.flaticon.com/png/64/61/61155.png);
+}
+
+.panel .panel_header .add_model:before, .panel .panel_header .add_story:before, .panel .workspace_header .add_model:before, .panel .workspace_header .add_story:before {
+  width: 11px;
+  height: 11px;
+  margin: -6px 0 0 -5px;
+  background-image: url(http://cdn.flaticon.com/png/64/61/61112.png);
+  background-size: 11px;
+}
+
+.panel .panel_header h3, .panel .workspace_header h3 {
+  color: #676E7A;
+}
+
+.iteration .preview {
+  width: 100%;
+ background: #fff;
+ border-top: none;
+ border-bottom: 1px solid #C5C7C7;
+ color: #345235;
+ text-shadow: none;
+}
+
+.iteration .preview a.expander.expanded {
+ background-image: url(http://cdn.flaticon.com/png/64/60/60952.png);
+  opacity: .3;
+}
+
+.iteration .preview a.expander {
+ background-image: url(http://cdn.flaticon.com/png/64/61/61028.png);
+ opacity: .3;
+}
+
+.panel .panel_header .velocity { color: #2C2D2F; }
+
+.panel .panel_footer, .sidebar_footer {
+ background-color: #DEE0E1;
+  border-top-color: #DEE0E1;
+  border-bottom-color: #DEE0E1;
+}
+
+.panel .split:before {
+  background-image: url(http://cdn.flaticon.com/png/64/61/61033.png);
+  background-size: 10px;
+  height: 16px;
+}
+
+.panel .unsplit:before {
+  background-image: url(http://cdn.flaticon.com/png/64/60/60960.png);
+  background-size: 10px;
+  height: 16px;
+}
+
+.panel .panel_settings:before {
+  background-image: url(http://cdn.flaticon.com/png/64/61/61094.png);
+  background-size: 10px;
+}
+
+
+
+
+/*
+Stories
+-------------------------------------------------- */
+
+.story.bug .preview .owner, .story.chore .preview .owner, .story.feature .preview .owner {
+  color: #397FFB;
+}
+
+.model .preview {
+ padding: 2px 3px 4px;
+}
+
+.story.unscheduled .preview {
+ background-color: #EAF2FF;
+  border-top: 1px solid #EFF5FF;
+ border-bottom: 1px solid #C7DCFF;
+}
+
+.story.unscheduled .preview:hover {
+  background-color: #DBE6F9;
+}
+
+.story.delivered .preview, .story.finished .preview, .story.rejected .preview, .story.started .preview {
+  background: #FFF8E3;
+}
+
+.story.delivered .preview:hover, .story.finished .preview:hover, .story.rejected .preview:hover, .story.started .preview:hover {
+  background: #F9EFD3;
+}
+
+.activity_entry_group a, .activity_entry_group label, .done_bar a, .done_bar label, .epics .done_bar.hide a, .epics .done_bar.hide label {
+  background: #D2E2D6;
+  color: #4A6551;
+}
+
+.activity_entry_group a:hover, .activity_entry_group label:hover, .done_bar a:hover, .done_bar label:hover, .epics .done_bar.hide a:hover, .epics .done_bar.hide label:hover {
+  background: #C1DAC8;
+}
+
+.story.accepted .preview {
+  background: #EAF5ED;
+}
+
+.story.accepted .preview:hover {
+  background: #E2EFE5;
+}
+
+.state.button.finish {
+  background-color: #397FFB;
+  border: 1px solid #3067CA;
+}
+
+
+
+
+
+/*
+Story Edit
+-------------------------------------------------- */
+
+.tracker_markup a { color: #397FFB; }
+
+.info_box .row .initials:hover {
+  color: #397FFB;
+  border: 1px solid #397FFB;
+}
+
+
+/*
+Maximized Edit
+--------------------------- */
+section.maximized section.edit {
+  padding: 0;
+}
+
+section.maximized .model section.edit fieldset.name {
+  padding: 10px;
+  background-color: #F6F8F9;
+}
+
+section.maximized section.edit .full { padding-left: 10px; }
+
+.no_attachments span, .no_comments span {
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+
+/*
+Modal Edit
+--------------------------- */
+.model section.edit {
+  background: #fff;
+  box-shadow: none;
+}
+
+.model section.edit nav.edit {
+  width: 100%;
+  min-width: 288px;
+}
+
+.model section.edit nav.edit .controls { width: 100%; }
+
+section.model_details .actions button.hover, section.model_details .actions button.hoverable:hover {
+ background-color: #397FFB;
+  border: 1px solid #3067CA;
+}
+
+.model section.edit .description .edit_description {
+  color: #397FFB;
+}
+
+.info_box .row.following .count {
+  color: #397FFB;
+}
+
+.info_box {
+  width: 100%;
+  min-width: 288px;
+}
+
+.edit .task, .edit .task_new, .ghost .task, .ghost .task_new {
+  border: 1px solid #e8e9ea;
+ background-color: #fafafa;
+ border-radius: 3px;
+}
+
+.tasks .new form { padding-bottom: 0; }
+
+.model section.edit .mini.attachments .attachments, .model section.edit li.activity {
+  border: 1px solid #e8e9ea;
+  background-color: #fafafa;
+  border-radius: 3px;
+}
+
+.model section.activity .activity header .author .initials {
+  background-color: hsla(0,0%,0%,0.1);
+  border-color: hsla(0,0%,0%,0.2);
+}
+
+.model section.activity .activity.edit header, .model section.activity .activity.new header {
+  margin-bottom: 5px;}
+
+.new section.model_details .persistence {
+  background-color: transparent;
+  border: 1px solid #DEE0E1;
+}
+
+
+
+
+/*
+Utilities
+-------------------------------------------------- */
+
+/*
+Text Shadow Override
+----------------------- */
+.edit_project_ghost aside.sidebar .edit_project, .my_work .my_work_group, .panel .panel_header h3, .panel .workspace_header h3, aside.sidebar .add_projects .dropdown .selection, aside.sidebar .add_projects .edit_project, aside.sidebar .button span, aside.sidebar .edit_project_ghost .edit_project, aside.sidebar .edit_workspace form.workspace, aside.sidebar .item.sidebar_link .sidebar_link, aside.sidebar .project, aside.sidebar .projects .edit_project, aside.sidebar .sidebar_content label, aside.sidebar section.help header, aside.sidebar section.save_workspace .edit button, section.maximized header.project h2 { text-shadow: none; }
