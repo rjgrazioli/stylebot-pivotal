@@ -151,7 +151,8 @@ aside.sidebar .sidebar_header {
 	border-bottom: 1px solid hsla(0, 0%, 0%, 0.2);
 	border-top: none;
 }
-aside.sidebar section.project .actions {
+aside.sidebar section.project .actions,
+aside.sidebar section.workspace .actions {
 	background-color: transparent;
 	border-bottom: hsla(0, 0%, 0%, 0.2);
 }
@@ -200,6 +201,16 @@ aside.sidebar input[type=checkbox]:checked+label {
 aside.sidebar form.panels .item:before {
 	-webkit-filter: hue-rotate(31deg) saturate(11);
 	opacity: 1;
+}
+
+aside.sidebar .new_workspace form.workspace button span {
+	background-color: #397FFB;
+	border: none;
+	box-shadow: none;
+}
+
+aside.sidebar .new_workspace form.workspace button span:hover {
+	background-color: #3067CA;
 }
 
 /*

@@ -1,0 +1,93 @@
+/* Typography
+--------------------------- */
+* {
+    font-family: "Helvetica Neue";
+}
+
+/* Components
+--------------------------- */
+.progress {
+    background-color: #EE5130;
+}
+
+.space-detail .count-graph-chart .pt-control.pt-switch input:checked ~ .pt-control-indicator, .space-detail .count-graph-chart .pt-control.pt-switch:hover input:checked:active ~ .pt-control-indicator {
+    background-color: #222A2E;
+}
+
+/* App Bar
+--------------------------- */
+.nav.nav-tabs select {
+    border-color: transparent;
+    color: #fff;
+}
+
+.app-bar-brand {
+    height: 40px;
+    width: 166px;
+    background-image: url("https://www.density.io/assets/images/knoll/app_bar_logo_knoll.png");
+    background-size: 166px 20px;
+    background-repeat: no-repeat;
+    background-position: 0 18px;
+}
+
+.app-bar.inverse .app-bar-brand {
+    background-image: url("https://www.density.io/assets/images/knoll/app_bar_logo_knoll.png");
+}
+
+.app-bar-logo {
+    display: none;
+}
+
+.nav-tabs > li > a {
+    padding-top: 18px;
+    padding-bottom: 17px;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    border-color: #EE5130;
+}
+
+.app-bar .nav.nav-tabs li:last-child {
+    display: none;
+}
+
+/* Space Info
+--------------------------- */
+.space-info {
+    padding-top: 30px;
+    border-top: 3px solid #222A2E;
+}
+
+/* Current Count
+--------------------------- */
+.chart-current-count .chart-current-count-body .chart-current-count-footer .chart-current-count-progress-meter {
+    background-color: #EE5130;
+}
+
+/* Teal Time Ticker
+--------------------------- */
+.ingress-egress-card-legend .rect.rect-in {
+    background-color: #EE5130;
+}
+
+/* 24 Hour Chart
+--------------------------- */
+.graph-countgraph .overlay-line circle {
+    fill: #EE5130;
+}
+
+.graph-countgraph .overlay-dialog-bg-primary {
+    fill: #EE5130;
+}
+
+.graph-countgraph .overlay-dialog-count {
+    fill: #EE5130;
+}
+
+/* Drift Chart
+--------------------------- */
+.drift-chart {
+    display: none;
+}
+
+
