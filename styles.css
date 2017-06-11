@@ -4,6 +4,10 @@
     font-family: "Helvetica Neue";
 }
 
+.raw-events-list .raw-event-item .raw-event-top-row .raw-event-count .raw-event-count-change {
+    color: #EE5130;
+}
+
 /* Components
 --------------------------- */
 .progress {
@@ -11,7 +15,7 @@
 }
 
 .space-detail .count-graph-chart .pt-control.pt-switch input:checked ~ .pt-control-indicator, .space-detail .count-graph-chart .pt-control.pt-switch:hover input:checked:active ~ .pt-control-indicator {
-    background-color: #222A2E;
+    background-color: #;
 }
 
 /* App Bar
