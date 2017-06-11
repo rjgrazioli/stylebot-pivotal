@@ -18,8 +18,16 @@
     background-color: #;
 }
 
+.card {
+    border-radius: 0;
+}
+
 /* App Bar
 --------------------------- */
+.app-bar.shadow {
+    box-shadow: none;
+}
+
 .nav.nav-tabs select {
     border-color: transparent;
     color: #fff;
@@ -35,7 +43,7 @@
 }
 
 .app-bar.inverse .app-bar-brand {
-    background-image: url("https://www.density.io/assets/images/knoll/app_bar_logo_knoll.png");
+    background-image: url("https://www.density.io/assets/images/knoll/app_bar_logo_knoll_light.png");
 }
 
 .app-bar-logo {
@@ -62,6 +70,10 @@
     border-top: 3px solid #222A2E;
 }
 
+.space-name {
+    font-size: 30px;
+}
+
 /* Current Count
 --------------------------- */
 .chart-current-count .chart-current-count-body .chart-current-count-footer .chart-current-count-progress-meter {
@@ -72,6 +84,10 @@
 --------------------------- */
 .ingress-egress-card-legend .rect.rect-in {
     background-color: #EE5130;
+}
+
+.graph-countgraph .overlay-dialog-count {
+    fill: #EE5130;
 }
 
 /* 24 Hour Chart
